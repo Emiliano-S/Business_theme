@@ -108,12 +108,12 @@ header a{
     display: flex;
     flex-direction: column;
 }
-.section_banner-title h1{
+.section_banner-title :is(h1, h2){
     font-weight: 700;
     color: var(--white);
 }
 
-h1 span{
+.section_banner-title :is(h1 span, h2 span){
     color: var(--green);
 }
 .section_banner-title p{
