@@ -378,6 +378,9 @@ footer{
     gap: 50px;
 }
 
+.footer-copyright a{
+    color: var(--lightBlack);
+}
 .footer-copyright p:nth-child(2) span{
     color: rgba(180, 34, 34,1)
 }
