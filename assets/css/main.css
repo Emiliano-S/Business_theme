@@ -225,7 +225,6 @@ header a{
 }
 .expertise{
     justify-content: center;
-    align-items: left;
 }
 .expertise_img{
     width: 69px;
@@ -284,8 +283,8 @@ header a{
 .testimonial_center{
     width: 90%;
     gap: 30px;
-
 }
+
 .testimonial_container{
     gap: 30px;
     flex-wrap: wrap;
