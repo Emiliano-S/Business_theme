@@ -3,3 +3,5 @@ function mobileMenu(){
     document.getElementById("header").classList.toggle('open');
     document.getElementById("mobileButtons").classList.toggle('open');
 }
+
+document.getElementById("mobileMenuButtons").addEventListener("click",()=> mobileMenu());
