@@ -4,4 +4,4 @@ function mobileMenu(){
     document.getElementById("mobileButtons").classList.toggle('open');
 }
 
-document.getElementById("mobileMenuButtons").addEventListener("click",()=> mobileMenu());
+document.getElementById("mobileButtons").addEventListener("click",()=> mobileMenu());
